@@ -14,4 +14,5 @@ int main(void)
         if (!(value%=100)) password++;
     }
     printf("%d\n", password);
+    fclose(fptr);
 }

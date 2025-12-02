@@ -24,4 +24,5 @@ int main(void)
         value = mod(value);
     }
     printf("%d\n", password);
+    fclose(fptr);
 }
