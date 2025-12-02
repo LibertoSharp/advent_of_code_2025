@@ -21,8 +21,6 @@ int is_valid(const char *s)
                 if (s[i] != s[i+j*strlen(s)/n]) goto end;
                 j++;
             }
-            if (j < n)
-                return 1;
             i++;
         }
         if (i == strlen(s)/n)
