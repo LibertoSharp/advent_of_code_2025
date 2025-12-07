@@ -55,4 +55,5 @@ int main(void)
     }
 
     printf("result: %llu\n", result);
+    fclose(fptr);
 }

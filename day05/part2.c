@@ -78,4 +78,5 @@ int main(void)
             result++;
     }
     printf("result: %llu\n", result);
+    fclose(fptr);
 }

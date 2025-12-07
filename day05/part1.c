@@ -44,4 +44,5 @@ int main(void)
             result += check(ranges, strtoull(buff, NULL, 10));
     }
     printf("result: %d\n", result);
+    fclose(fptr);
 }

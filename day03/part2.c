@@ -34,4 +34,5 @@ int main(void)
         result += battery;
     }
     printf("result: %lld\n", result);
+    fclose(fptr);
 }

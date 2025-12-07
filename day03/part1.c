@@ -28,4 +28,5 @@ int main(void)
         result += first_digit * 10 + second_digit;
     }
     printf("result: %d\n", result);
+    fclose(fptr);
 }
