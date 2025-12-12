@@ -11,7 +11,7 @@ unsigned long long backtrack(unsigned char buff[144][144], unsigned long long me
     if (buff[y][x] == '^')
     {
         if (!mem[y][x])
-        mem[y][x] = backtrack(buff, mem, y + 1, x + 1) + backtrack(buff, mem, y + 1, x - 1);
+            mem[y][x] = backtrack(buff, mem, y + 1, x + 1) + backtrack(buff, mem, y + 1, x - 1);
         return mem[y][x];
     }
     
